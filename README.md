@@ -1,17 +1,8 @@
-Custom built email template
+# Custom built email template
 
-Structure:
-
-body
-----div
-------table
---------table
---------table
---------table
---------table
---------table
-------table
-----div
-body
-
-Fully Litmus tested
+| Key           | Value                                           |
+| ------------- | ----------------------------------------------- |
+| Description   | Responsive table structure for emails           |
+| Structure     | Div -> table -> tables (individual, not nested) |
+| Litmus result | Pass                                            |
+| Notes         | Colors used for illustration                    |
