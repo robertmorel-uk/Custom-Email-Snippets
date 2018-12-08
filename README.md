@@ -1,8 +1,17 @@
-Custom built email templates
+Custom built email template
 
-Litmus tested
+Structure:
 
-Current issues:
+body
+----div
+------table
+--------table
+--------table
+--------table
+--------table
+--------table
+------table
+----div
+body
 
-Outlook 7/10/13 - no cell padding
-Row 1 lightsteelblue interpreted differently - style using hex or individual cells
+Fully Litmus tested
