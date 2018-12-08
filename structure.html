@@ -11,19 +11,72 @@
   </head>
 
   <body>
-    Body
-    <table border="0" rules="none" frame="void">
-      <!-- -No borders on or in table with fallbacks -->
-      <tr>
-        <td>Column 1</td>
-        <td>Column 2</td>
-        <td>Column 3</td>
-      </tr>
-      <tr>
-        <td>Column 1</td>
-        <td>Column 2</td>
-        <td>Column 3</td>
-      </tr>
-    </table>
+    <div
+      style="max-width:600px;
+      margin:0 auto;
+      text-align:center; 
+      mso-element-frame-width:600px; 
+      mso-element:para-border-div; 
+      mso-element-left:center; 
+      mso-element-wrap:no-wrap-beside;"
+    >
+      <table
+        border="0"
+        rules="none"
+        frame="void"
+        align="center"
+        valign="middle"
+        bgcolor="gold"
+      >
+        <!-- begin outer table -->
+        <table
+          border="0"
+          rules="none"
+          frame="void"
+          valign="middle"
+          bgcolor="orange"
+        >
+          <!-- -No borders on or in table with fallbacks -->
+          <tr>
+            <colgroup span="3" width="200px" valign="middle">
+              <td>Column 1 Lorem ipsum Lorem ipsum Lorem ipsum</td>
+              <td>Column 2 Lorem ipsum Lorem ipsum Lorem ipsum</td>
+              <td>Column 3 Lorem ipsum Lorem ipsum Lorem ipsum</td>
+            </colgroup>
+          </tr>
+        </table>
+
+        <!-- table row for spacing - set height for space -->
+        <table
+          align="center"
+          border="0"
+          valign="middle"
+          bgcolor="red"
+          rules="none"
+          frame="void"
+          cellpadding="0"
+          cellspacing="0"
+          style="padding: 0; margin: 0;"
+          width="100%"
+          height="20px"
+        ></table>
+
+        <table border="0" rules="none" frame="void">
+          <!-- -No borders on or in table with fallbacks -->
+          <tr>
+            <colgroup span="2" width="300px">
+              <tbody valign="middle" bgcolor="pink">
+                <td bgcolor="blue">
+                  Column 1 Lorem ipsum Lorem ipsum Lorem ipsum
+                </td>
+                <td>Column 2 Lorem ipsum Lorem ipsum Lorem ipsum</td>
+              </tbody>
+            </colgroup>
+          </tr>
+        </table>
+      </table>
+      <!-- end of outer table -->
+      <!-- Content -->
+    </div>
   </body>
 </html>
