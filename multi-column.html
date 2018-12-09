@@ -6,8 +6,29 @@
       name="viewport"
       content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"
     />
-    <title></title>
+    <!--[if gte mso 7
+      ]><xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG /> <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml><!
+    [endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>HTML Custom Email Template</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />
     <style type="text/css">
+      html,
+      body {
+        width: 100%;
+        border: none;
+        outline: none;
+        margin: 0px;
+        padding: 0px;
+      }
       table,
       tbody,
       tr {
@@ -17,14 +38,44 @@
         padding: 0px;
         color: white;
         text-align: center;
+        border-collapse: collapse;
       }
       td {
         border: none;
         outline: none;
-        margin: 4px;
-        padding: 4px;
+        margin: 7px;
+        padding: 7px;
         text-align: center;
+        font-weight: normal; color:#ffffff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        mso-line-height-rule: exactly;"
       }
+      img {
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+      a {
+        color: #ffcccc;
+        text-decoration: none;
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      p,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      span,
+      div {
+        margin: 0;
+        padding: 0;
+      }
+      #banner-image,
+      #side-image{width:100% !important; display: block; margin: 0 auto;}
     </style>
   </head>
 
@@ -35,7 +86,7 @@
       border:none;
       outline:none;
       text-align:center; 
-      mso-element-frame-width:600px; 
+      mso-element-frame-width:420px; 
       mso-element:para-border-div; 
       mso-element-left:center; 
       mso-element-wrap:no-wrap-beside;"
@@ -52,6 +103,45 @@
         cellspacing="0"
         width="100%"
       >
+        <table style="width: 100%;" width="100%">
+          <tr>
+            <td style="text-align: left; width: 50%;" width="50%">
+              <h2
+                style="color: #444444 !important; font-size:24px ; font-weight: 600; color:#ffffff; 
+              font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif; line-height: 30px;  
+              padding-top: 15px; padding-bottom:15px; padding-left: 5px; padding-right: 5px; 
+              mso-line-height-rule: exactly;"
+                mc:edit="newslettername"
+              >
+                Clearvision Newsletter
+              </h2>
+            </td>
+            <td
+              style="position: relative; text-align: right; width: 50%;"
+              width="50%"
+            >
+              <a
+                href="https://www.clearvision-cm.com"
+                style="border: 0; text-decoration:none;"
+              >
+                <!--[if mso]>
+             <table width="50%"><tr><td><img width="180" src="https://cfdn.clearvision-cm.com/wp-content/uploads/2018/04/07094827/ClearvisionLogo.png" alt="ITEAMS" style="text-align: right; width: 207px; border: 0; text-decoration:none; vertical-align: baseline;"></td></tr></table>
+             <div style="display:none">
+          <![endif]-->
+                <img
+                  id="clearvisionLogo"
+                  src="https://cfdn.clearvision-cm.com/wp-content/uploads/2018/04/07094827/ClearvisionLogo.png"
+                  alt="Clearvision-cm"
+                  style="text-align: right; min-width: 50px; max-width: 180px; border: 0; text-decoration:none; vertical-align: baseline;"
+                />
+                <!--[if mso]>
+             </div>
+          <![endif]-->
+              </a>
+            </td>
+          </tr>
+        </table>
+
         <table
           align="center"
           border="0"
@@ -66,9 +156,18 @@
           <!-- -No borders on or in table with fallbacks -->
           <tr>
             <tbody valign="middle" bgcolor="#444444" valign="middle">
-              <td width="100%" bgcolor="#B4B622">
-                Column 1 Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
-                ipsum Lorem ipsum
+              <td
+                width="100%"
+                bgcolor="#B4B622"
+                style="font-size:13px ; font-weight: normal; color:#ffffff; 
+              font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif; line-height: 30px;  
+              padding-top: 15px; padding-bottom:15px; padding-left: 15px; padding-right: 15px; 
+              mso-line-height-rule: exactly;"
+              >
+                <h1>
+                  Column 1 Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+                  ipsum Lorem ipsum
+                </h1>
               </td>
             </tbody>
           </tr>
@@ -89,14 +188,14 @@
           <tr>
             <colgroup span="3" width="33.33%" valign="middle">
               <tbody valign="middle" bgcolor="#222222">
-                <td width="33.33%" bgcolor="#FC5321">
-                  Column 1 Lorem ipsum Lorem ipsum Lorem ipsum
+                <td width="33.33%" bgcolor="#FC5321" style="font-size:13px;">
+                  <p>Column 1 Lorem ipsum Lorem ipsum Lorem ipsum</p>
                 </td>
-                <td width="33.33%" bgcolor="#735648">
-                  Column 2 Lorem ipsum Lorem ipsum Lorem ipsum
+                <td width="33.33%" bgcolor="#735648" style="font-size:13px;">
+                  <p>Column 2 Lorem ipsum Lorem ipsum Lorem ipsum</p>
                 </td>
-                <td width="33.33%" bgcolor="#775228">
-                  Column 3 Lorem ipsum Lorem ipsum Lorem ipsum
+                <td width="33.33%" bgcolor="#775228" style="font-size:13px;">
+                  <p>Column 3 Lorem ipsum Lorem ipsum Lorem ipsum</p>
                 </td>
               </tbody>
             </colgroup>
@@ -118,7 +217,7 @@
           height="10px"
         >
           <tr height="10">
-            <td>Spacer</td>
+            <td></td>
           </tr>
         </table>
 
@@ -135,16 +234,51 @@
         >
           <!-- -No borders on or in table with fallbacks -->
           <tr>
-            <colgroup span="2" width="50%">
-              <tbody valign="middle" bgcolor="pink">
-                <td width="50%" bgcolor="steelblue">
-                  Column 1 Lorem ipsum Lorem ipsum Lorem ipsum
-                </td>
-                <td width="50%" bgcolor="#FC5648">
-                  Column 2 Lorem ipsum Lorem ipsum Lorem ipsum
-                </td>
-              </tbody>
-            </colgroup>
+            <tbody valign="middle" bgcolor="pink">
+              <td
+                style="position: relative; text-align: right; width: 50%;"
+                width="50%"
+              >
+                <a
+                  href="https://www.clearvision-cm.com"
+                  style="border: 0; text-decoration:none;"
+                >
+                  <!--[if mso]>
+               <table width="50%"><tr><td><img width="230" src="https://metroaccelerator.com/wp-content/uploads/2018/06/france-paris-eiffel-tower.jpg" alt="ITEAMS" style="text-align: right; width: 207px; border: 0; text-decoration:none; vertical-align: baseline;"></td></tr></table>
+               <div style="display:none">
+            <![endif]-->
+                  <img
+                    src="https://metroaccelerator.com/wp-content/uploads/2018/06/france-paris-eiffel-tower.jpg"
+                    id="side-image"
+                    alt="Email side image"
+                    width="200px"
+                    align="middle"
+                    border="0"
+                    hspace="0"
+                    vspace="0"
+                    style="text-align: right; min-width: 50px; max-width: 307px; border: 0; text-decoration:none; vertical-align: baseline;"
+                  />
+                  <!--[if mso]>
+               </div>
+            <![endif]-->
+                </a>
+              </td>
+
+              <td
+                width="50%"
+                bgcolor="#FC5648"
+                style="width:50%; font-size:13px ; font-weight: normal; color:#ffffff; 
+                font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif; line-height: 16px;  
+                padding-top: 5px; padding-bottom:5px; padding-left: 5px; padding-right: 5px; 
+                mso-line-height-rule: exactly;"
+              >
+                <p>
+                  Column 2 Lorem ipsum Lorem ipsum Lorem ipsum Column 2 Lorem
+                  ipsum Lorem ipsum Lorem ipsum Column 2 Lorem ipsum Lorem ipsum
+                  Lorem ipsum Column 2 Lorem ipsum Lorem ipsum
+                </p>
+              </td>
+            </tbody>
           </tr>
         </table>
 
@@ -163,11 +297,11 @@
           <tr>
             <colgroup span="1" width="35%">
               <tbody valign="middle" bgcolor="#246489">
-                <td width="35%" bgcolor="#268456">
-                  Column 1 Lorem ipsum Lorem ipsum Lorem ipsum
+                <td width="35%" bgcolor="#268456" style="font-size:13px;">
+                  <p>Column 1 Lorem ipsum Lorem ipsum Lorem ipsum</p>
                 </td>
-                <td width="65%" bgcolor="#234551">
-                  Column 2 Lorem ipsum Lorem ipsum Lorem ipsum
+                <td width="65%" bgcolor="#234551" style="font-size:13px;">
+                  <p>Column 2 Lorem ipsum Lorem ipsum Lorem ipsum</p>
                 </td>
               </tbody>
             </colgroup>
@@ -189,18 +323,21 @@
           <tr>
             <colgroup span="1" width="60%">
               <tbody valign="middle" bgcolor="#934289">
-                <td width="60%" bgcolor="#F96541">
-                  Column 1 Lorem ipsum Lorem ipsum Lorem ipsum
+                <td width="60%" bgcolor="#F96541" style="font-size:13px;">
+                  <p>Column 1 Lorem ipsum Lorem ipsum Lorem ipsum</p>
                 </td>
-                <td width="40%" bgcolor="#CC8844">
-                  Column 2
-                  <a href="%%unsubscribe%%">Lorem Ipsum Email Unsubscribe</a>
+                <td width="40%" bgcolor="#CC8844" style="font-size:13px;">
+                  <p>Column 2</p>
+                  <p>
+                    <a href="%%unsubscribe%%">Lorem Ipsum Email Unsubscribe</a>
+                  </p>
                 </td>
               </tbody>
             </colgroup>
           </tr>
         </table>
       </table>
+
       <!-- end of outer table -->
       <!-- Content -->
     </div>
